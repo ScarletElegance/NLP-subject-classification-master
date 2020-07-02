@@ -13,67 +13,51 @@
 
 ## 目录结构
 
-**【】**
+**【Weibo_Spider】**
 
-* TrainModel
+* search_spider
 
-  * STEP1_feature.py
-  * STEP2_merge.py
-  * STEP3_fill.py
-  * STEP4_train&save.py
+  * hour_fenge.py
+  * search_start.py
     
 
-* UseModel
+* tools
 
-  * STEP1_testdata_feature.py
-  * STEP2_usemodel_predict.py
+  * Cookie_Process.py
+  * Date_Process.py
+  * Emoji_Process.py
+  * Number_Process.py
+  * Weibo_Driver.py
   
 
-**【data】**
+**【classifier】**
 
-* train：训练集
-  * NORMAL01.csv  -  NORMAL02.csv
-  * B01.csv  -  B06.csv
-  * OR01.csv  -  OR14.csv
-  * IR01.csv  -  IR06.csv
+* data
   
-* test1 : 第一组测试集（TEST01.csv  -  TEST14.csv）
+* runs
   
-* test2 : 第二组测试集（TEST1.csv  -  TEST142.csv）
+* data_helpers.py
+* eval.py
+* text_cnn.py
+* train.py
 
 
-**【miniprogram】**
+**【cluster】**
 
 
-* commpents：组件库
-* components：其他组件库
-* imgs：小程序中用到的背景图
-
-* pages
-
-  * chartonea：数据表格页面
-  * index：首页
-  * my：个人中心，登录页面
-  * show：数据展示页面
-
-  
-* util：用户配置文件
-* app.js / app.json / app.wxss：全局配置文件
+* k-means.py
 
 
+**【custom classifier】**
 
-**【othercode】**
-
-* balance.py
-* feature_shipinyu.py
-* feature_shiyu.py
+* predict_true.ipynb
 
 
+**【preprocessing】**：
 
-**【cwru.model】**：训练好的四分类模型
-
-**【result.csv】**：第二组测试数据的故障预测结果
-
+* fenci
+* fenci_jieba.py
+* pre_data.ipynb
 
 
 
