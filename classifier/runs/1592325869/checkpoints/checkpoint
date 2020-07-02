@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\NLP-master\\runs\\1592325869\\checkpoints\\model-100"
+all_model_checkpoint_paths: "D:\\NLP-master\\runs\\1592325869\\checkpoints\\model-100"

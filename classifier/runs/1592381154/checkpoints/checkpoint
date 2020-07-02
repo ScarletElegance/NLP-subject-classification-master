@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:\\NLP-master\\runs\\1592381154\\checkpoints\\model-1900"
+all_model_checkpoint_paths: "D:\\NLP-master\\runs\\1592381154\\checkpoints\\model-1500"
+all_model_checkpoint_paths: "D:\\NLP-master\\runs\\1592381154\\checkpoints\\model-1600"
+all_model_checkpoint_paths: "D:\\NLP-master\\runs\\1592381154\\checkpoints\\model-1700"
+all_model_checkpoint_paths: "D:\\NLP-master\\runs\\1592381154\\checkpoints\\model-1800"
+all_model_checkpoint_paths: "D:\\NLP-master\\runs\\1592381154\\checkpoints\\model-1900"
